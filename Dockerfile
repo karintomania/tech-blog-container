@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:16
 RUN apt-get -y update \
 && apt-get install -y git \
 && npm install -g hexo-cli
