@@ -1,12 +1,11 @@
 version: '3'
 services:
-  tech-memo:
+  manga:
     build:
       dockerfile: Dockerfile
       context: .
-    container_name: tech-memo
+    container_name: manga
     volumes:
-      - ./tech-memo:/app
+      - ./karintouManga:/app
     ports:
-      - "4000:4000"
       - "5000:5000"

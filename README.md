@@ -4,7 +4,7 @@ $
 ## Build Docker  
 $ docker-compose build  
 ## Run Create React App  
-$ docker-compose run --rm tech-memo sh -c "npm install"  
+$ docker-compose run --rm manga sh -c "npm install"  
 
 ## run container  
 $ docker-compose up -d  
